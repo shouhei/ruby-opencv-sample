@@ -1,0 +1,6 @@
+*.jpg
+*.png
+data/
+vendor/
+/.bundle/
+.DS_store
