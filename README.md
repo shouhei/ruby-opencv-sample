@@ -20,6 +20,10 @@ bundle install --path=vendor/bundle
 
 あとは顔の画像を適当に用意する
 
+また、必要に応じてソース内の `data_dir` を書き換える
+
+brewでopencvをインストールしているとおそらく `/usr/local/Cellar/opencv/2.4.13/share/OpenCV/haarcascades/` がdata_dirとなる
+
 # ファイル説明
 
 * `load_image.rb` 画像読込のチェック
