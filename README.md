@@ -36,6 +36,8 @@ brewでopencvをインストールしているとおそらく `/usr/local/Cellar
 bundle exec ruby eye_resize.rb input output resize(float)
 ```
 
+引数一覧
+
 1. inputファイル
 1. outputファイル
 1. 拡大比率(1~1.1の間)
